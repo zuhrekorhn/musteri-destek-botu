@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Sanal ortam
+venv/
+.venv/
+env/
+
+# Ortam değişkenleri / gizli anahtarlar
+.env
+.env.*
+
+# Streamlit gizli bilgileri (API anahtarları vb.) — config.toml commit edilir, secrets edilmez
+.streamlit/secrets.toml
+
+# Loglar
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
